@@ -1,0 +1,83 @@
+.leftBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #121212;
+}
+
+.leftBtn img {
+    width: 16px;
+}
+
+.rightBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #121212;
+}
+
+.rightBtn img {
+    width: 16px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.766);
+    padding: 0 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    right: 60px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 1000;
+}
+
+.btns {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    gap: 15px;
+    align-items: center;
+    display: flex;
+
+}
+
+.sign {
+    color: #6a6a6a;
+    font-size: 18px;
+}
+
+.sign:hover {
+    transform: scale(1.03);
+    color: white;
+    cursor: pointer;
+}
+
+.logIn:hover {
+    transform: scale(1.1);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.logIn {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+.artistDetails{
+    display: flex;
+}
